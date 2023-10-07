@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
    
    <Navbar/>
    <h1 className='text-yellow-500'>Hello from Online Shop in Bangladesh</h1>
-   
+   <Footer/>
    </div>
    </>
   )
