@@ -17,25 +17,27 @@ function Navbar() {
               </li>
               <li>
               <Link href="/about">
-                AboutUs</Link> 
+                About</Link> 
               </li>
+              <li><Link href="/products">Products</Link> </li>
               <li>
-              <Link href="/contact">ContactUs</Link></li>
+              <Link href="/contact">Contact</Link></li>
               <li><Link href="/signIn">SignIn</Link> </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">mobileShop</a>
+          <a className="btn btn-ghost normal-case text-xl">shopMobile</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li><Link href="/">Home</Link> </li>       
-            <li><Link href="/about">AboutUs</Link> </li>
-            <li><Link href="/contact">ContactUs</Link> </li>
+            <li><Link href="/about">About</Link> </li>
+            <li><Link href="/products">Products</Link> </li>
+            <li><Link href="/contact">Contact</Link> </li>
             <li><Link href="/signIn">SignIn</Link> </li>
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn">signout</a>
         </div>
       </div>
 
