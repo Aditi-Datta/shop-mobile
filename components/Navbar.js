@@ -3,7 +3,7 @@ import Link from "next/link"
 function Navbar() {
     return (
         <>
-        <div className="navbar bg-teal-950 " style={{color:'white'}}>
+        <div className="navbar bg-teal-950 " style={{color:'white', width: "100vw"}}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
