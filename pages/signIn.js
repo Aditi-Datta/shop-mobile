@@ -38,7 +38,6 @@ function signIn() {
               
               }}>Discover a world of limitless possibilities <br></br> in our online store. 🌟 We're thrilled to have <br></br> you here, and we can't wait to help you <br></br> find exactly what you're looking for.</p>
             </div>
-
             <div className=" mx-5 py-12">
               <div>
                 <h1 style={{ color: 'white', fontWeight: 'bold', fontSize: '20px',  textAlign: 'center' }}>SignIn</h1>
