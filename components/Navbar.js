@@ -19,7 +19,7 @@ function Navbar() {
               <Link href="/about">
                 About</Link> 
               </li>
-              <li><Link href="/products">Products</Link> </li>
+              <li><Link href="/products">Product</Link> </li>
               <li>
               <Link href="/contact">Contact</Link></li>
               <li><Link href="/signIn">SignIn</Link> </li>

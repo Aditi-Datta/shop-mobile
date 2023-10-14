@@ -27,7 +27,7 @@ function about() {
         </div>
        
       </div>
-      <h1>Hello from about page</h1>
+     
       <Footer />
     </>
   )
